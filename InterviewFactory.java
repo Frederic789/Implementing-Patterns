@@ -1,0 +1,5 @@
+
+
+interface InterviewFactory {
+    Interview createInterview();
+}

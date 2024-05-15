@@ -1,0 +1,5 @@
+
+
+interface Interview {
+    void displaySteps();
+}
