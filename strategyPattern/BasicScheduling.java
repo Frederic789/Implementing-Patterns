@@ -1,4 +1,4 @@
-
+package strategyPattern;
 
 
 class BasicScheduling implements SchedulingBehavior {

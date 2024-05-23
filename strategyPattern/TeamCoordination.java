@@ -1,4 +1,4 @@
-
+package strategyPattern;
 
 class TeamCoordination implements TeamingBehavior {
     public void coordinateTeam() {

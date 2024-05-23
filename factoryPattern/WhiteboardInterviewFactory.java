@@ -1,4 +1,4 @@
-
+package factoryPattern;
 
 class WhiteboardInterviewFactory implements InterviewFactory {
     public Interview createInterview() {

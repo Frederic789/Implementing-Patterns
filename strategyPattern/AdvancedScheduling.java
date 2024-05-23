@@ -1,4 +1,4 @@
-
+package strategyPattern;
 
 class AdvancedScheduling implements SchedulingBehavior {
     public void schedule() {

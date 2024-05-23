@@ -1,3 +1,12 @@
+package interviewManagement;
+
+import factoryPattern.InfoInterviewFactory;
+import factoryPattern.InterviewFactory;
+import factoryPattern.TeamInterviewFactory;
+import factoryPattern.WhiteboardInterviewFactory;
+import factoryPattern.Interview;
+import factoryPattern.InterviewType;
+
 
 class InterviewManager {
     public Interview arrange(String candidateName, InterviewType interviewType) {

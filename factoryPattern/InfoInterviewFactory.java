@@ -1,3 +1,5 @@
+package factoryPattern;
+
 
 
 class InfoInterviewFactory implements InterviewFactory {
@@ -5,3 +7,4 @@ class InfoInterviewFactory implements InterviewFactory {
         return new InfoInterview();
     }
 }
+

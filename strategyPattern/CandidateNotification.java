@@ -1,4 +1,4 @@
-
+package strategyPattern;
 
 class CandidateNotification implements NotifyingBehavior {
     public void notifyCandidate() {
