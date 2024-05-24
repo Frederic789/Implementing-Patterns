@@ -1,4 +1,4 @@
-package main;
+
 
 import factoryPattern.InfoInterviewFactory;
 import factoryPattern.InfoInterview;
@@ -19,7 +19,7 @@ import strategyPattern.NotifyingBehavior;
 import strategyPattern.SchedulingBehavior;
 import strategyPattern.TeamCoordination;
 import strategyPattern.TeamingBehavior;
-import interviewManagement.InterviewManager; 
+
 
 
 public class Main {

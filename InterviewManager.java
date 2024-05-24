@@ -1,4 +1,4 @@
-package interviewManagement;
+
 
 import factoryPattern.InfoInterviewFactory;
 import factoryPattern.WhiteboardInterviewFactory;
