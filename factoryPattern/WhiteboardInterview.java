@@ -1,6 +1,9 @@
 package factoryPattern;
 
-class WhiteboardInterview implements Interview {
+import strategyPattern.AdvancedScheduling;
+import strategyPattern.CandidateNotification;
+
+public class WhiteboardInterview implements Interview {
     public void displaySteps() {
         System.out.println("_____ PROCESS for candidate: LDM _________");
         new AdvancedScheduling().schedule(); // Modify this method to output two scheduling steps

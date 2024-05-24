@@ -1,5 +1,5 @@
 package factoryPattern;
 
-interface Interview {
+public interface Interview {
     void displaySteps();
 }

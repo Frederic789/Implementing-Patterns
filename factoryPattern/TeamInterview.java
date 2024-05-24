@@ -1,6 +1,7 @@
 package factoryPattern;
+import strategyPattern.BasicScheduling;
 
-class TeamInterview implements Interview {
+public class TeamInterview implements Interview {
     public void displaySteps() {
         System.out.println("_____ PROCESS for candidate: PPK _________");
         new BasicScheduling().schedule(); // Modify this method to reflect two scheduling steps

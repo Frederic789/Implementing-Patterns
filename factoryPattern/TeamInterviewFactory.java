@@ -1,6 +1,6 @@
 package factoryPattern;
 
-class TeamInterviewFactory implements InterviewFactory {
+public class TeamInterviewFactory implements InterviewFactory {
     public Interview createInterview() {
         return new TeamInterview();
     }

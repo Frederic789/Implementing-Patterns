@@ -1,5 +1,5 @@
 package factoryPattern;
 
-interface InterviewFactory {
+public interface InterviewFactory {
     Interview createInterview();
 }
